@@ -1,7 +1,7 @@
 import 'package:get/get.dart' as getx;
-import 'package:qs_get_tool/dispose_bag.dart';
+import 'package:qs_getx_tool/dispose_bag.dart';
 
-class GetTool {
+class GetxTool {
   /// 监听
   static void ever<T>(
     getx.RxInterface<T> listener, {
@@ -25,7 +25,7 @@ class GetTool {
 
   /// 监听所有
   static void everAll(
-    List<getx.RxInterface> listeners, { 
+    List<getx.RxInterface> listeners, {
     dynamic condition = true,
     Function? onError,
     void Function()? onDone,
@@ -33,7 +33,7 @@ class GetTool {
     required DisposeBag disposeBag,
     required getx.WorkerCallback callback,
   }) {
-    var worker = getx.everAll(    
+    var worker = getx.everAll(
       listeners,
       condition: condition,
       onError: onError,
