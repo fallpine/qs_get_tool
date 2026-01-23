@@ -1,4 +1,4 @@
-package com.example.qs_get_tool
+package com.example.qs_getx_tool
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
@@ -6,8 +6,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** QsGetToolPlugin */
-class QsGetToolPlugin :
+/** QsGetxToolPlugin */
+class QsGetxToolPlugin :
     FlutterPlugin,
     MethodCallHandler {
     // The MethodChannel that will the communication between Flutter and native Android
@@ -17,7 +17,7 @@ class QsGetToolPlugin :
     private lateinit var channel: MethodChannel
 
     override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "qs_get_tool")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "qs_getx_tool")
         channel.setMethodCallHandler(this)
     }
 

@@ -1,6 +1,6 @@
-# qs_get_tool_example
+# qs_getx_tool_example
 
-Demonstrates how to use the qs_get_tool plugin.
+Demonstrates how to use the qs_getx_tool plugin.
 
 ## Getting Started
 

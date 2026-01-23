@@ -1,4 +1,4 @@
-# qs_get_tool
+# qs_getx_tool
 
 A new Flutter plugin project.
 

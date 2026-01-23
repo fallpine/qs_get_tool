@@ -1,4 +1,4 @@
-group = "com.example.qs_get_tool"
+group = "com.example.qs_getx_tool"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "com.example.qs_get_tool"
+    namespace = "com.example.qs_getx_tool"
 
     compileSdk = 36
 

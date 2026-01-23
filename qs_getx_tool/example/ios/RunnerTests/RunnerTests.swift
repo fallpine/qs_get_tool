@@ -3,7 +3,7 @@ import UIKit
 import XCTest
 
 
-@testable import qs_get_tool
+@testable import qs_getx_tool
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //
@@ -12,7 +12,7 @@ import XCTest
 class RunnerTests: XCTestCase {
 
   func testGetPlatformVersion() {
-    let plugin = QsGetToolPlugin()
+    let plugin = QsGetxToolPlugin()
 
     let call = FlutterMethodCall(methodName: "getPlatformVersion", arguments: [])
 

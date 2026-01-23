@@ -1,6 +1,6 @@
 name: qs_getx_tool
 description: "一个基于Get的工具类库"
-version: 1.0.2
+version: 1.0.3
 homepage: "https://github.com/fallpine/qs_get_tool"
 
 environment:
@@ -36,10 +36,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.qs_get_tool
-        pluginClass: QsGetToolPlugin
+        package: com.example.qs_getx_tool
+        pluginClass: QsGetxToolPlugin
       ios:
-        pluginClass: QsGetToolPlugin
+        pluginClass: QsGetxToolPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

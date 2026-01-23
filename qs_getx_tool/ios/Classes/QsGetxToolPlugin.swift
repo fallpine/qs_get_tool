@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class QsGetToolPlugin: NSObject, FlutterPlugin {
+public class QsGetxToolPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "qs_get_tool", binaryMessenger: registrar.messenger())
-    let instance = QsGetToolPlugin()
+    let channel = FlutterMethodChannel(name: "qs_getx_tool", binaryMessenger: registrar.messenger())
+    let instance = QsGetxToolPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
